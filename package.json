@@ -1,0 +1,37 @@
+{
+  "name": "collie",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --dotenv .env.production",
+    "dev": "nuxt dev --dotenv .env.dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.0.0-beta.11",
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^18.16.4",
+    "@unocss/nuxt": "^0.51.8",
+    "@unocss/preset-uno": "^0.51.8",
+    "daisyui": "^2.51.6",
+    "nuxt": "^3.4.3",
+    "unocss-preset-daisy": "^4.0.0"
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.5.1",
+    "@better-scroll/mouse-wheel": "^2.5.1",
+    "@better-scroll/observe-dom": "^2.5.1",
+    "@better-scroll/pull-down": "^2.5.1",
+    "@better-scroll/scroll-bar": "^2.5.1",
+    "@better-scroll/slide": "^2.5.1",
+    "@iconify-json/mdi": "^1.1.50",
+    "@lemonpeel2/hooks": "file:/Users/carroll/Desktop/project/lemonpeel_pro/packages/hooks/lemonpeel2-hooks-0.1.0.tgz",
+    "@pinia/nuxt": "^0.4.9",
+    "@unocss/preset-icons": "^0.51.8",
+    "dayjs": "^1.11.7",
+    "lodash": "^4.17.21",
+    "pinia": "^2.0.35",
+    "socket.io-client": "^4.6.1"
+  }
+}

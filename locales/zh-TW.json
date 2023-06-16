@@ -1,0 +1,225 @@
+{
+    "title": "Collie",
+    "description":"歡迎來到我們的 AI 語言模型聊天室，這裡是與最先進的人工智能聊天的地方",
+    "pages": {
+        "auth": {
+            "login": {
+                "title": "登入",
+                "description":"登入您的帳戶",
+                "button": {
+                    "login": "登入",
+                    "google": "使用 Google 登入"
+                },
+                "text": {
+                    "welcome": "歡迎回來！",
+                    "hint": "登入您的帳戶",
+                    "register": "還沒有帳戶？"
+                },
+                "label": {
+                    "email": "電子郵件",
+                    "password": "密碼"
+                },
+                "link": {
+                    "forgot": "忘記密碼？",
+                    "register": "註冊"
+                }
+            },
+            "register": {
+                "title": "註冊",
+                "description":"註冊您的帳戶",
+                "button": {
+                    "register": "註冊"
+                },
+                "text": {
+                    "welcome": "開始使用！",
+                    "hint": "現在註冊您的帳戶",
+                    "login": "已有帳戶？"
+                },
+                "label": {
+                    "email": "電子郵件",
+                    "password": "密碼",
+                    "username": "使用者名稱"
+                },
+                "link": {
+                    "login": "登入"
+                }
+            },
+            "forgot": {
+                "title": "忘記密碼",
+                "description":"重設您的密碼",
+                "button": {
+                    "reset": "重設密碼"
+                },
+                "text": {
+                    "welcome": "忘記密碼？",
+                    "hint": "透過電子郵件重設您的密碼",
+                    "login": "返回登入"
+                },
+                "label": {
+                    "email": "電子郵件",
+                    "password": "密碼",
+                    "code": "驗證碼"
+                },
+                "message": {
+                    "send": "驗證碼已寄送至 { email }，請查收。"
+                },
+                "link": {
+                    "login": "登入"
+                }
+            }
+        },
+        "index": {
+            "chat": {
+                "title": "聊天室",
+                "description": "與人工智能聊天",
+                "text": {
+                    "create": "建立您的聊天室"
+                },
+                "button": {
+                    "submit": "建立"
+                },
+                "label": {
+                    "name": "房間名稱"
+                }
+            },
+            "setup": {
+                "title": "設定",
+                "description":"設置您的帳戶信息和偏好",
+                "menu": {
+                    "info": "個人資訊",
+                    "lock": "安全",
+                    "theme": "外觀",
+                    "notification": "通知",
+                    "language": "語言",
+                    "about": "關於"
+                },
+                "info": {
+                    "title": "個人資訊",
+                    "description": "個人信息及管理",
+                    "text": {
+                        "title": "設定您的個人資訊",
+                        "hint": "個人資訊和管理該資訊的選項。您可以披露一些資訊以便聯繫您。您也可以查看您的個人資訊摘要。",
+                        "upload": "上傳.png，.jpeg檔案，大小不超過8MB。建議大小為258*256像素。"
+                    },
+                    "label": {
+                        "email": "電子郵件",
+                        "username": "使用者名稱",
+                        "avatar": "頭像"
+                    },
+                    "button": {
+                        "upload": "上傳圖片"
+                    }
+                },
+                "lock": {
+                    "title": "安全",
+                    "description":"保護您的帳戶安全",
+                    "text": {
+                        "title": "密碼",
+                        "hint": "安全的密碼可以更好地保護您的帳戶。",
+                        "update": "更新密碼",
+                        "updateTiem": "上次修改時間：{time}"
+                    },
+                    "label": {
+                        "email": "電子郵件",
+                        "username": "使用者名稱",
+                        "avatar": "頭像",
+                        "newPassword": "新密碼",
+                        "oldPassword": "舊密碼"
+                    },
+                    "button": {
+                        "update": "更新密碼",
+                        "submit": "提交"
+                    }
+                },
+                "theme": {
+                    "title": "外觀",
+                    "description":"定制您喜歡的主題",
+                    "text": {
+                        "title": "外觀",
+                        "hint": "選擇您喜歡的外觀。",
+                        "themeAuto": "跟隨系統",
+                        "sidebarLeft": "左側顯示",
+                        "sidebarRight": "右側顯示"
+                    },
+                    "label": {
+                        "theme": "主題顏色",
+                        "fontSize": "字型大小",
+                        "sidebar": "側邊欄"
+                    }
+                },
+                "language": {
+                    "title": "语言",
+                    "description":"設置網站首選語言",
+                    "text": {
+                        "title": "首选语言",
+                        "hint": "只要有可能，網站就會以您的首選語言顯示內容。"
+                    }
+                },
+                "notification": {
+                    "title": "消息通知",
+                    "description":"設置消息通知方式",
+                    "text": {
+                        "title": "消息通知",
+                        "hint": "通過設置消息通知方式可以更好的提醒您。"
+                    },
+                    "label": {
+                        "notify": "允許消息通知",
+                        "browser": "允許瀏覽器通知"
+                    }
+                },
+                "about": {
+                    "title": "關於",
+                    "description": "關於 Collie",
+                    "text": {
+                        "title": "關於",
+                        "hint": "Collie是一個基於ChatGPT語言模型的在線聊天網站，旨在為用戶提供智能有趣的對話體驗。",
+                        "contact":"如果您有任何問題或建議，請隨時通過電子郵件與我聯繫：",
+                        "source":"您可以在GitHub上查看和貢獻本項目的源代碼："
+                    },
+                    "label": {
+                        "author": "作者",
+                        "contact": "聯繫方式",
+                        "source": "項目源代碼"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "hero": {
+            "text": {
+                "title": "歡迎回來！",
+                "subtitle": "歡迎來到我們的 AI 語言模型聊天室，這是與最先進的人工智慧聊天的地方。"
+            }
+        },
+        "sendButton": {
+            "button": {
+                "send": "發送",
+                "locking": "{time} 秒後"
+            }
+        },
+        "scroll": {
+            "pullDown": {
+                "enter": "下拉刷新",
+                "leave": "釋放刷新",
+                "succeed": "載入成功",
+                "fetching": "上拉載入更多"
+            }
+        },
+        "navigation": {
+            "menu": {
+                "chat": "聊天室",
+                "dashboard": "儀表板",
+                "setup": "設定",
+                "signOut": "登出",
+                "theme": "外觀"
+            }
+        }
+    },
+    "validate": {
+        "required": "{field} 是必填欄位",
+        "invalid": "{field} 無效",
+        "length": "{field} 必須介於 {min} 和 {max} 個字元之間",
+        "filesize": "{field} 必須小於 {size}KB"
+    }
+}

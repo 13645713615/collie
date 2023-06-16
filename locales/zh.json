@@ -1,0 +1,225 @@
+{
+    "title": "Collie",
+    "description":"欢迎来到我们的 AI 语言模型聊天室，这里是与最先进的人工智能聊天的地方",
+    "pages": {
+        "auth": {
+            "login": {
+                "title": "登录",
+                "description": "登录到您的帐户",
+                "button": {
+                    "login": "登录",
+                    "google": "使用 Google 登录"
+                },
+                "text": {
+                    "welcome": "欢迎回来！",
+                    "hint": "登录到您的帐户",
+                    "register": "还没有帐户？"
+                },
+                "label": {
+                    "email": "邮箱",
+                    "password": "密码"
+                },
+                "link": {
+                    "forgot": "忘记密码？",
+                    "register": "注册"
+                }
+            },
+            "register": {
+                "title": "注册",
+                "description": "注册您的帐户",
+                "button": {
+                    "register": "注册"
+                },
+                "text": {
+                    "welcome": "开始吧！",
+                    "hint": "立即注册您的帐户",
+                    "login": "已有帐户？"
+                },
+                "label": {
+                    "email": "邮箱",
+                    "password": "密码",
+                    "username": "用户名"
+                },
+                "link": {
+                    "login": "登录"
+                }
+            },
+            "forgot": {
+                "title": "忘记",
+                "description": "重置您的密码",
+                "button": {
+                    "reset": "重置密码"
+                },
+                "text": {
+                    "welcome": "忘记密码？",
+                    "hint": "通过电子邮件重置密码",
+                    "login": "返回"
+                },
+                "label": {
+                    "email": "邮箱",
+                    "password": "密码",
+                    "code": "验证码"
+                },
+                "message": {
+                    "send": "验证码已发送至 { email }，请查收。"
+                },
+                "link": {
+                    "login": "登录"
+                }
+            }
+        },
+        "index": {
+            "chat": {
+                "title": "聊天",
+                "description": "与人工智能聊天",
+                "text": {
+                    "create": "创建您的聊天室"
+                },
+                "button": {
+                    "submit": "创建"
+                },
+                "label": {
+                    "name": "房间名称"
+                }
+            },
+            "setup": {
+                "title": "设置",
+                "description":"设置您的帐户信息和偏好",
+                "menu": {
+                    "info": "信息",
+                    "lock": "安全",
+                    "theme": "外观",
+                    "notification": "通知",
+                    "language": "语言",
+                    "about": "关于"
+                },
+                "info": {
+                    "title": "设置",
+                    "description": "个人信息及管理",
+                    "text": {
+                        "title": "设置个人信息",
+                        "hint": "管理个人信息和选项。您可以披露一些信息以方便与您联系。您还可以查看您的个人资料概要。",
+                        "upload": ".png、.jpeg 文件最大 8MB。建议尺寸为 258*256px。"
+                    },
+                    "label": {
+                        "email": "邮箱",
+                        "username": "用户名",
+                        "avatar": "头像"
+                    },
+                    "button": {
+                        "upload": "上传图片"
+                    }
+                },
+                "lock": {
+                    "title": "锁定",
+                    "description":"保护您的帐户安全",
+                    "text": {
+                        "title": "密码",
+                        "hint": "安全的密码可以更好地保护您的帐户。",
+                        "update": "更新密码",
+                        "updateTiem": "上次修改时间：{time}"
+                    },
+                    "label": {
+                        "email": "邮箱",
+                        "username": "用户名",
+                        "avatar": "头像",
+                        "newPassword": "新密码",
+                        "oldPassword": "旧密码"
+                    },
+                    "button": {
+                        "update": "更新密码",
+                        "submit": "提交"
+                    }
+                },
+                "theme": {
+                    "title": "主题",
+                    "description": "定制您喜欢的主题",
+                    "text": {
+                        "title": "外观",
+                        "hint": "安全的密码可以更好地保护您的帐户。",
+                        "themeAuto": "跟随系统",
+                        "sidebarLeft": "左侧显示",
+                        "sidebarRight": "右侧显示"
+                    },
+                    "label": {
+                        "theme": "主题颜色",
+                        "fontSize": "字体大小",
+                        "sidebar": "侧边栏"
+                    }
+                },
+                "language": {
+                    "title": "语言",
+                    "description": "设置网站首选语言",
+                    "text": {
+                        "title": "首选语言",
+                        "hint": "只要有可能，网站就会以您的首选语言显示内容。"
+                    }
+                },
+                "notification": {
+                    "title": "消息通知",
+                    "description": "设置消息通知方式",
+                    "text": {
+                        "title": "消息通知",
+                        "hint": "通过设置消息通知方式可以更好的提醒您。"
+                    },
+                    "label": {
+                        "notify": "允许消息通知",
+                        "browser": "允许浏览器通知"
+                    }
+                },
+                "about": {
+                    "title": "关于",
+                    "description": "关于 Collie",
+                    "text": {
+                        "title": "关于",
+                        "hint": "Collie是一个基于ChatGPT语言模型的在线聊天网站，旨在为用户提供智能有趣的对话体验。",
+                        "contact":"如果您有任何问题或建议，请随时通过电子邮件与我联系：",
+                        "source":"您可以在GitHub上查看和贡献本项目的源代码："
+                    },
+                    "label": {
+                        "author": "作者",
+                        "contact": "联系方式",
+                        "source": "项目源代码"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "hero": {
+            "text": {
+                "title": "欢迎回来！",
+                "subtitle": "欢迎来到我们的 AI 语言模型聊天室，与最先进的人工智能进行聊天的地方。"
+            }
+        },
+        "sendButton": {
+            "button": {
+                "send": "发送",
+                "locking": "{time}秒后"
+            }
+        },
+        "scroll": {
+            "pullDown": {
+                "enter": "下拉刷新",
+                "leave": "释放刷新",
+                "succeed": "加载成功",
+                "fetching": "正在拉取"
+            }
+        },
+        "navigation": {
+            "menu": {
+                "chat": "聊天",
+                "dashboard": "仪表盘",
+                "setup": "设置",
+                "signOut": "登出",
+                "theme": "主题"
+            }
+        }
+    },
+    "validate": {
+        "required": "{field} 是必填项",
+        "invalid": "{field} 无效",
+        "length": "{field} 的长度必须在 {min} 到 {max} 个字符之间",
+        "filesize": "{field} 的大小必须小于 {size}KB"
+    }
+}

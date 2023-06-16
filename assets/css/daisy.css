@@ -1,0 +1,67 @@
+/* 补充daisy缺失的样式 */
+
+@media (min-width: 1024px) {
+    .drawer-mobile>.drawer-toggle~.drawer-side {
+        overflow-y: auto;
+    }
+
+    .drawer-mobile>.drawer-toggle~.drawer-side>.drawer-overlay {
+        visibility: visible;
+    }
+
+    .drawer-mobile>.drawer-toggle~.drawer-side>.drawer-overlay+* {
+        --tw-translate-x: 0px;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    }
+
+    .drawer.drawer-end.drawer-mobile>.drawer-toggle~.drawer-side>.drawer-overlay+* {
+        --un-translate-x: 0px;
+    }
+
+    .drawer-mobile>.drawer-toggle~.drawer-content {
+        grid-column-start: 2;
+        height: auto;
+    }
+
+    .drawer-mobile {
+        grid-auto-columns: max-content auto;
+    }
+}
+
+
+@media (max-width: 1023px) {
+    .drawer-mobile {
+        grid-auto-columns: initial !important;
+    }
+}
+
+/* .drawer.drawer-end > .drawer-toggle:checked ~ .drawer-side > .drawer-overlay + * {
+    --tw-translate-x: 0px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+} */
+
+@media (min-width: 640px) {
+    .sm\:modal-middle {
+        align-items: center !important;
+    }
+
+    .sm\:modal-middle :where(.modal-box) {
+        width: 91.666667% !important;
+        max-width: 32rem !important;
+        --tw-translate-y: 0px !important;
+        --tw-scale-x: .9 !important;
+        --tw-scale-y: .9 !important;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+        border-bottom-left-radius: var(--rounded-box, 1rem) !important;
+        border-bottom-right-radius: var(--rounded-box, 1rem) !important;
+    }
+}
+
+.modal-open .modal-box,
+.modal-toggle:checked+.modal .modal-box,
+.modal:target .modal-box {
+    --tw-translate-y: 0px !important;
+    --tw-scale-x: 1 !important;
+    --tw-scale-y: 1 !important;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+}

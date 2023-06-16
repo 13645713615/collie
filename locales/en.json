@@ -1,0 +1,224 @@
+{
+    "title": "Collie",
+    "description": "Welcome to our AI Language Models chatroom, the place to chat with state-of-the-art artificial intelligence",
+    "pages": {
+        "auth": {
+            "login": {
+                "title": "Login",
+                "description": "Log in to your account and access our services",
+                "button": {
+                    "login": "Login",
+                    "google": "Sign in with Google"
+                },
+                "text": {
+                    "welcome": "Welcome back!",
+                    "hint": "Login to your account",
+                    "register": "Don't have an account?"
+                },
+                "label": {
+                    "email": "email",
+                    "password": "password"
+                },
+                "link": {
+                    "forgot": "Forgot password?",
+                    "register": "Register"
+                }
+            },
+            "register": {
+                "title": "Register",
+                "description": "Create your account and access our services",
+                "button": {
+                    "register": "Register"
+                },
+                "text": {
+                    "welcome": "Get started!",
+                    "hint": "Register your account now",
+                    "login": "Have an account?"
+                },
+                "label": {
+                    "email": "email",
+                    "password": "password",
+                    "username": "username"
+                },
+                "link": {
+                    "login": "Login"
+                }
+            },
+            "forgot": {
+                "title": "Forgot",
+                "description": "Reset your password and access our services",
+                "button": {
+                    "reset": "Reset Password"
+                },
+                "text": {
+                    "welcome": "Forgot Password?",
+                    "hint": "Reset your password by email",
+                    "login": "back"
+                },
+                "label": {
+                    "email": "email",
+                    "password": "password",
+                    "code": "code"
+                },
+                "message": {
+                    "send": "The verification code has been sent to { email }, please check it."
+                },
+                "link": {
+                    "login": "Login"
+                }
+            }
+        },
+        "index": {
+            "chat": {
+                "title": "Chat",
+                "description": "Chat with state-of-the-art artificial intelligence",
+                "text": {
+                    "create": "Create your chat room"
+                },
+                "button": {
+                    "submit": "create"
+                },
+                "label": {
+                    "name": "RoomName"
+                }
+            },
+            "setup": {
+                "title": "Setup",
+                "description": "Update your account information and preferences on our settings page",
+                "menu": {
+                    "info": "Information",
+                    "lock": "Safety",
+                    "theme": "Exterior",
+                    "notification": "Notification",
+                    "language": "Language",
+                    "about": "About"
+                },
+                "info": {
+                    "title": "Setup",
+                    "description": "Personal Information and Management",
+                    "text": {
+                        "title": "Set up your personal information",
+                        "hint": "Personal Information and Options for Managing That Information. You may disclose some information to facilitate contacting you. You can also view a summary of your profile.",
+                        "upload": ".png,.jpeg files up to 8MB. Recommended size is 258*256px."
+                    },
+                    "label": {
+                        "email": "email",
+                        "username": "username",
+                        "avatar": "avatar"
+                    },
+                    "button": {
+                        "upload": "Upload images"
+                    }
+                },
+                "lock": {
+                    "title": "Lock",
+                    "description": "A secure password can better protect your account",
+                    "text": {
+                        "title": "Password",
+                        "hint": "A secure password can better protect your account.",
+                        "update": "Update Password",
+                        "updateTiem": "Last modified time：{time}"
+                    },
+                    "label": {
+                        "email": "email",
+                        "username": "username",
+                        "avatar": "avatar",
+                        "newPassword": "New Password",
+                        "oldPassword": "Old Password"
+                    },
+                    "button": {
+                        "update": "update password",
+                        "submit": "submit"
+                    }
+                },
+                "theme": {
+                    "title": "Theme",
+                    "description": "Customize your personal settings",
+                    "text": {
+                        "title": "Exterior",
+                        "themeAuto": "follow the system",
+                        "sidebarLeft": "Left display",
+                        "sidebarRight": "Right display"
+                    },
+                    "label": {
+                        "theme": "theme color",
+                        "fontSize": "fontSize",
+                        "sidebar": "Sidebar"
+                    }
+                },
+                "language": {
+                    "title": "Language",
+                    "description": "Set the preferred language display for the website",
+                    "text": {
+                        "title": "Preferred language",
+                        "hint": "Whenever possible, the site displays content in your preferred language."
+                    }
+                },
+                "notification": {
+                    "title": "Notification",
+                    "description": "Set the message notification method",
+                    "text": {
+                        "title": "Notification",
+                        "hint": "You can better remind you by setting the message notification method."
+                    },
+                    "label": {
+                        "notify": "Allow message notifications",
+                        "browser": "Allow browser notifications"
+                    }
+                },
+                "about": {
+                    "title": "About",
+                    "description": "About the website",
+                    "text": {
+                        "title": "About",
+                        "hint": "Collie is an online chat website based on the ChatGPT language model, aiming to provide users with an intelligent and interesting conversation experience.",
+                        "contact":"If you have any questions or suggestions, please feel free to contact me via email:",
+                        "source":"You can view and contribute to the source code of this project on GitHub:"
+                    },
+                    "label": {
+                        "author": "Author",
+                        "contact": "Contact information",
+                        "source": "Source code"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "hero": {
+            "text": {
+                "title": "Welcome back!",
+                "subtitle": "Welcome to our AI Language Models chatroom, the place to chat with state-of-the-art artificial intelligence."
+            }
+        },
+        "sendButton": {
+            "button": {
+                "send": "Send",
+                "locking": "{time}s later"
+            }
+        },
+        "scroll": {
+            "pullDown": {
+                "enter": "Pull down to refresh",
+                "leave": "Release to refresh",
+                "succeed": "Load succeed",
+                "fetching": "Pulling up"
+            }
+        },
+        "navigation": {
+            "menu": {
+                "chat": "Chat",
+                "dashboard": "Dashboard",
+                "setup": "setup",
+                "signOut": "Sign Out",
+                "theme": "Theme"
+            }
+        }
+    },
+    "validate": {
+        "required": "{field} is required",
+        "invalid": "{field} is invalid",
+        "length": "{field} must be between {min} and {max} characters",
+        "filesize": "{field} must be less than {size}KB"
+    }
+}

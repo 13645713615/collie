@@ -1,0 +1,76 @@
+.loading-spin {
+    display: inline-block;
+}
+
+.loading-spin::before {
+    content: "";
+    pointer-events: none;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    animation: spin 1s linear infinite;
+    animation-duration: 2000ms;
+    border-width: 2px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: currentColor;
+    border-right-color: currentColor;
+    border-radius: 9999px;
+    border-style: solid;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.loading-bouncing {
+    display: block;
+    position: relative;
+    width: calc(var(--loading-width) / 8);
+    height: calc(var(--loading-height) * 0.2);
+    animation: rectangle infinite 1s ease-in-out -0.2s;
+    background-color: currentColor;
+    --loading-height: 1rem;
+    --loading-width: 1rem;
+}
+
+.loading-bouncing:before,
+.loading-bouncing:after {
+    position: absolute;
+    width: calc(var(--loading-width) / 8);
+    height: calc(var(--loading-height) * 0.2);
+    content: "";
+    background-color: currentColor;
+}
+
+.loading-bouncing:before {
+    left: calc(0px - var(--loading-width) / 8 * 2.5);
+    animation: rectangle infinite 1s ease-in-out -0.4s;
+}
+
+.loading-bouncing:after {
+    right: calc(0px - var(--loading-width) / 8 * 2.5);
+    animation: rectangle infinite 1s ease-in-out;
+}
+
+@keyframes rectangle {
+
+    0%,
+    80%,
+    100% {
+        height: calc(var(--loading-height) * 0.4);
+        box-shadow: 0 0 currentColor;
+    }
+
+    40% {
+        height:calc(var(--loading-height) * 0.6);
+        box-shadow: 0 calc(0px - var(--loading-height) * 0.4) currentColor;
+    }
+}
